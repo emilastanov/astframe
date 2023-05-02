@@ -32,31 +32,31 @@ python astproject.py <command> [args]
 
 Ниже приведены примеры использования команд:
 
-Инициализация проекта
+**Инициализация проекта**
 ```bash
 python astproject.py init
 ```
-Создание объекта
+**Создание объекта**
 ```bash
 python astproject.py make_object "Object_name"
 ```
-Создание идемпотентного объекта
+**Создание идемпотентного объекта**
 ```bash
 python astproject.py make_object "Object_name" -idempotent
 ```
-Создание миграций
+**Создание миграций**
 ```bash
 python astproject.py make_migrations
 ```
-Создание миграций с сообщением
+**Создание миграций с сообщением**
 ```bash
 python astproject.py make_migrations "Создание таблицы users"
 ```
-Применение миграций
+**Применение миграций**
 ```bash
 python astproject.py migrate
 ```
-Отмена последней миграции
+**Отмена последней миграции**
 ```bash
 python astproject.py undo_migration
 ```
